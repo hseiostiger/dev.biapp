@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B187CDED1BDFA69000105B7A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B187CDEC1BDFA69000105B7A /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
+		B187CDEF1BDFA98F00105B7A /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B187CDEE1BDFA98F00105B7A /* MyNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
 		B1A286001BD7DDA500A2C6BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A285FF1BD7DDA500A2C6BF /* AppDelegate.swift */; };
 		B1A286021BD7DDA500A2C6BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A286011BD7DDA500A2C6BF /* ViewController.swift */; };
 		B1A286051BD7DDA600A2C6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A286031BD7DDA600A2C6BF /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 		B1A2860D1BD7DDA700A2C6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A2860B1BD7DDA700A2C6BF /* LaunchScreen.storyboard */; };
 		B1A286181BD7DDA800A2C6BF /* dev_biappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A286171BD7DDA800A2C6BF /* dev_biappTests.swift */; };
 		B1A286231BD7DDA800A2C6BF /* dev_biappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A286221BD7DDA800A2C6BF /* dev_biappUITests.swift */; };
+		B1A286331BD7E64B00A2C6BF /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A286321BD7E64B00A2C6BF /* CAPSPageMenu.swift */; settings = {ASSET_TAGS = (); }; };
+		B1A286381BD7FCAE00A2C6BF /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A286361BD7FCAE00A2C6BF /* ENSideMenu.swift */; settings = {ASSET_TAGS = (); }; };
+		B1A286391BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A286371BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
+		B1A2863B1BD7FE0000A2C6BF /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A2863A1BD7FE0000A2C6BF /* MyMenuTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B187CDEC1BDFA69000105B7A /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B187CDEE1BDFA98F00105B7A /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		B1A285FC1BD7DDA500A2C6BF /* dev.biapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dev.biapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A285FF1BD7DDA500A2C6BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1A286011BD7DDA500A2C6BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		B1A2861E1BD7DDA800A2C6BF /* dev.biappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dev.biappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A286221BD7DDA800A2C6BF /* dev_biappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dev_biappUITests.swift; sourceTree = "<group>"; };
 		B1A286241BD7DDA900A2C6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A286321BD7E64B00A2C6BF /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		B1A286361BD7FCAE00A2C6BF /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		B1A286371BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		B1A2863A1BD7FE0000A2C6BF /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,13 @@
 			children = (
 				B1A285FF1BD7DDA500A2C6BF /* AppDelegate.swift */,
 				B1A286011BD7DDA500A2C6BF /* ViewController.swift */,
+				B187CDEE1BDFA98F00105B7A /* MyNavigationController.swift */,
+				B1A2863A1BD7FE0000A2C6BF /* MyMenuTableViewController.swift */,
+				B187CDEC1BDFA69000105B7A /* ViewController2.swift */,
+				B1A286361BD7FCAE00A2C6BF /* ENSideMenu.swift */,
+				B1A286371BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift */,
 				B1A286031BD7DDA600A2C6BF /* Main.storyboard */,
+				B1A286321BD7E64B00A2C6BF /* CAPSPageMenu.swift */,
 				B1A286091BD7DDA700A2C6BF /* Assets.xcassets */,
 				B1A2860B1BD7DDA700A2C6BF /* LaunchScreen.storyboard */,
 				B1A2860E1BD7DDA700A2C6BF /* Info.plist */,
@@ -258,8 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A286391BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift in Sources */,
+				B187CDED1BDFA69000105B7A /* ViewController2.swift in Sources */,
 				B1A286081BD7DDA600A2C6BF /* dev_biapp.xcdatamodeld in Sources */,
+				B187CDEF1BDFA98F00105B7A /* MyNavigationController.swift in Sources */,
 				B1A286021BD7DDA500A2C6BF /* ViewController.swift in Sources */,
+				B1A286381BD7FCAE00A2C6BF /* ENSideMenu.swift in Sources */,
+				B1A2863B1BD7FE0000A2C6BF /* MyMenuTableViewController.swift in Sources */,
+				B1A286331BD7E64B00A2C6BF /* CAPSPageMenu.swift in Sources */,
 				B1A286001BD7DDA500A2C6BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +509,7 @@
 				B1A286291BD7DDA900A2C6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1A2862A1BD7DDA900A2C6BF /* Build configuration list for PBXNativeTarget "dev.biappTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +518,7 @@
 				B1A2862C1BD7DDA900A2C6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1A2862D1BD7DDA900A2C6BF /* Build configuration list for PBXNativeTarget "dev.biappUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +527,7 @@
 				B1A2862F1BD7DDA900A2C6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
